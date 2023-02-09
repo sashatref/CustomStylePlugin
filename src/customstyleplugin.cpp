@@ -14,7 +14,7 @@ CustomStylePlugin::~CustomStylePlugin()
 
 QStyle *CustomStylePlugin::create(const QString &key)
 {
-    if(key.toLower() == "customStyle")
+    if(key.toLower() == "customstyle")
     {
         CustomStyle *c = new CustomStyle();
         c->setParent(this);
